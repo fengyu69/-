@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "拾知 · 知乎收藏导出",
+  "version": "1.0.0",
+  "description": "由用户主动采集自己已打开的知乎收藏夹条目，导出为拾知学习挑战 JSON。",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": { "default_popup": "popup.html", "default_title": "导出我的知乎收藏" }
+}

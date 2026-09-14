@@ -1,0 +1,9 @@
+{
+  "name": "zhihu-learning-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "拾知：把知乎收藏变成学习行动",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": { "start": "node --env-file-if-exists=.env server.mjs", "test": "node --test tests/*.test.mjs" }
+}
